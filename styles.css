@@ -1,0 +1,43 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+p {
+    font-family: Arial, sans-serif;
+    font-size: 1em;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100vh;
+    width: 100vw;
+}
+
+.header, .footer {
+    background-color: #282c34;
+    font-family: Arial, sans-serif;
+    color: white;
+    padding: 20px;
+    width: 100%;
+    height: 5vh;
+    text-align: center;
+}
+
+.content {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #f0f0f0;
+    color: #333;
+    width: 100%;
+    height: 90vh;
+}
+
+#email-contact {
+    text-decoration: none;
+    color: #cae4ff;
+}
