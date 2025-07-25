@@ -90,3 +90,21 @@ p {
     text-decoration: none;
     color: #cae4ff;
 }
+
+@media screen and (max-width: 768px) {
+    .content {
+        width: 90vw;
+    }
+
+    .header-text {
+        font-size: 1.5em;
+    }
+
+    .section-header {
+        font-size: 1.2em;
+    }
+
+    .important-text {
+        font-size: 1em;
+    }
+}
